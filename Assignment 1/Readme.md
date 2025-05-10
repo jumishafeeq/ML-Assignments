@@ -1,4 +1,4 @@
-#  Bangalore House Prices – Outlier Detection and EDA
+#  Statistical Measures
 
 This project explores house price data in Bangalore with a focus on **price per square foot**. The goal is to detect and remove outliers using various statistical methods and perform exploratory data analysis (EDA) to better understand the dataset.
 
@@ -32,6 +32,7 @@ Applied on the `price_per_sqft` column using:
 
 Methods used for handling:
 - **Trimming**: Removing the rows with extreme values.
+- **Capping**: Handle outliers by setting a maximum and minimum limit.
 
 ### Q3. Box Plot Comparison :
 - Box plots for each method to visually assess which outlier removal technique is most effective.
